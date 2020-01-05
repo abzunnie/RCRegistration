@@ -31,9 +31,9 @@ public class RcRegistrationApplication {
 	public void addData(){
 		VehicleType wagonR = new VehicleType("LMV","Maruti","WagonR");
 		vehicleRepository.save(wagonR);
-		VehicleType audi = new VehicleType("LMV","Maruti","WagonR");
+		VehicleType audi = new VehicleType("LMV","Audi","Q5");
 		vehicleRepository.save(audi);
-		VehicleType bmw = new VehicleType("LMV","Maruti","WagonR");
+		VehicleType bmw = new VehicleType("LMV","BMW","X7");
 		vehicleRepository.save(bmw);
 	
 	 RCRegistration MH12NQ1274 = new RCRegistration("MH12NQ1274","Abhishek","Pune",new Date(),"No","RED",wagonR);
